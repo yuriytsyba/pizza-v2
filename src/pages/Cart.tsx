@@ -45,9 +45,9 @@ const Cart: React.FC = () => {
         </h6>
       </div>
       <div className='cart__bootom-btns'>
-        <Link to='/'>
+        <Link to='/pizza-v2/'>
           <button className='cart__btn-back'>
-            <img style={{ marginRight: 10 }} src='/img/line.svg' alt='' />
+            <img style={{ marginRight: 10 }} src='img/line.svg' alt='' />
             Вернуться назад
           </button>
         </Link>

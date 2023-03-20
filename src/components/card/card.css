@@ -68,7 +68,7 @@
       top: 50%;
       transform: translateY(-50%);
       left: 10px;
-      background-image: url(/public/img/plus-orange.svg);
+      background-image: url(https://yuriytsyba.github.io/pizza-v2/img/plus-orange.svg);
       width: 12px;
       height: 12px; }
     .card__down button:hover {
@@ -78,4 +78,4 @@
       .card__down button:hover i {
         border: 1px solid #fff; }
       .card__down button:hover::after {
-        background-image: url(/public/img/plus-white.svg); }
+        background-image: url(https://yuriytsyba.github.io/pizza-v2/img/plus-white.svg); }

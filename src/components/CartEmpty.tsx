@@ -14,12 +14,12 @@ const CartEmpty: React.FC = () => {
           width={300}
           height={300}
           style={{ margin: 'auto' }}
-          src='/img/cart2.jpg'
+          src='https://yuriytsyba.github.io/pizza-v2/img/cart2.jpg'
           alt='cart-img'
         />
-        <Link to='/'>
+        <Link to='/pizza-v2/'>
           <button className='cart__btn-back'>
-            <img style={{ marginRight: 10 }} src='/img/line.svg' alt='' />
+            <img style={{ marginRight: 10 }} src='img/line.svg' alt='' />
             Вернуться назад
           </button>
         </Link>

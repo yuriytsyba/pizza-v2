@@ -23,21 +23,26 @@ const Header = () => {
   return (
     <div className='header'>
       <div className='header__logo'>
-        <Link to='/'>
-          <img width='38' src='/img/pizza-logo.svg' alt='Pizza logo' />
+        <Link to='pizza-v2/'>
+          <img width='38' src='img/pizza-logo.svg' alt='Pizza logo' />
         </Link>
         <div>
           <h1>React Pizza</h1>
           <p>самая вкусная пицца во вселенной</p>
         </div>
       </div>
-      {location.pathname !== '/cart' && <SearchInput />}
-      {location.pathname !== '/cart' && (
+      {location.pathname === '/pizza-v2/' && <SearchInput />}
+      {location.pathname !== '/pizza-v2/cart' && (
         <div className='header__cart-btn'>
-          <Link to='/cart' className='header__cart-btn-link'>
+          <Link to='pizza-v2/cart' className='header__cart-btn-link'>
             <span>{totalPrice} $</span>
             <div className='header__cart-btn-line'></div>
-            <img width={16} height={16} src='/img/cart.svg' alt='Cart logo' />
+            <img
+              width={16}
+              height={16}
+              src='https://yuriytsyba.github.io/pizza-v2/img/cart.svg'
+              alt='Cart logo'
+            />
             <span>{totalCount}</span>
           </Link>
         </div>

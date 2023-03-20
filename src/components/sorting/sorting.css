@@ -15,7 +15,7 @@
       top: 50%;
       transform: translateX(-50%);
       left: -5px;
-      background-image: url(/public/img/arrow-top.svg);
+      background-image: url(https://yuriytsyba.github.io/pizza-v2//img/arrow-top.svg);
       width: 10px;
       height: 6px; }
   .sorting span {

@@ -38,7 +38,7 @@ const Card: React.FC<CardProps> = ({ id, imageUrl, title, price, sizes, types })
 
   return (
     <div className='card'>
-      <Link to={`/pizza/${id}`}>
+      <Link to={`/pizza-v2/${id}`}>
         <img src={imageUrl} alt='Pizza-foto' />
         <h4 style={{ color: 'black' }}>{title}</h4>
       </Link>

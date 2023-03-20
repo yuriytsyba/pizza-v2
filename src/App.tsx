@@ -12,18 +12,18 @@ const Cart = lazy(() => import(/*webpackChunkName:'Cart'*/ './pages/Cart'));
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<MainLayouts />}>
-        <Route path='/' element={<Home />}></Route>
+      <Route path='' element={<MainLayouts />}>
+        <Route path='pizza-v2/' element={<Home />}></Route>
         <Route
-          path='/cart'
+          path='pizza-v2/cart'
           element={
             <Suspense fallback={<div>Loading</div>}>
               <Cart />
             </Suspense>
           }
         ></Route>
-        <Route path='/pizza/:id' element={<FullPizza />}></Route>
-        <Route path='*' element={<NotFound />}></Route>
+        <Route path='pizza-v2/:id' element={<FullPizza />}></Route>
+        <Route path='pizza-v2/*' element={<NotFound />}></Route>
       </Route>
     </Routes>
   );

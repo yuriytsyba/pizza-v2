@@ -2,7 +2,7 @@
   "name": "v2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yuriytsyba.github.io/frontend",
+  "homepage": "https://yuriytsyba.github.io/pizza-v2/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.2",
     "@testing-library/jest-dom": "^5.16.5",
